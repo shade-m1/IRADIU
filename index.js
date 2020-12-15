@@ -26,7 +26,7 @@ client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
 
 client.on("ready", () => {
-  const channel = client.channels.cache.get("759439449188204558");
+  const channel = client.channels.cache.get("214199357170253836");
   if (!channel) return console.error("The channel does not exist!");
   channel.join().then(connection => {
       // Yay, it worked!
